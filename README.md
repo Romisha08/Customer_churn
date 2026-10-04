@@ -94,7 +94,7 @@ IBM Telco Customer Churn dataset.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
+```
 
 ---
 
@@ -102,31 +102,62 @@ streamlit run app.py
 
 
 ```text
+customer_churn.ipynb
+│
+├── 1. Project Introduction
+│
+├── 2. Import Libraries
+│
+├── 3. Load Dataset
+│
+├── 4. Dataset Shape
+│
+├── 5. Dataset Information
+│
+├── 6. Missing Values
+│
+├── 7. Data Cleaning
+│
+├── 8. Target Distribution
+│
+├── 9. Exploratory Data Analysis
+│   ├── Tenure
+│   ├── Monthly Charges
+│   ├── Total Charges
+│   ├── Contract
+│   ├── Internet Service
+│   ├── Payment Method
+│   └── Senior Citizen
+│
+├── 10. Correlation Analysis
+│
+├── 11. Feature Preparation
+│
+├── 12. Train/Test Split
+│
+├── 13. Preprocessing Pipeline
+│
+├── 14. Logistic Regression
+│
+├── 15. Logistic Evaluation
+│
+├── 16. Random Forest
+│
+├── 17. Random Forest Evaluation
+│
+├── 18. Model Comparison
+│
+├── 19. Threshold Tuning
+│
+├── 20. Feature Importance
+│
+├── 21. Save Model
+│
+├── 22. Load Model
+│
+├── 23. Test New Customer
+│
+└── 24. Final Results
 
-Telco Customer Data
-        ↓
-  Data Cleaning
-        ↓
-       EDA
-        ↓
-Feature Engineering
-        ↓
-Train/Test Split
-        ↓
-Preprocessing
-        ↓
-Class Imbalance Handling
-        ↓
-Random Forest
-        ↓
-Cross Validation
-        ↓
-Threshold Optimization
-        ↓
-customer_churn_model.pkl
-        ↓
-Streamlit
-        ↓
-Live ML Application
 
 ```
