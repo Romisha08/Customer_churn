@@ -11,7 +11,7 @@ The project includes data preprocessing, exploratory data analysis, handling cla
 
 ##  Live Demo
 
-👉 **[Try the Customer Churn Prediction App](YOUR_STREAMLIT_APP_URL)**
+👉 **[Try the Customer Churn Prediction App](https://customerchurn-cfg59wwrwqes5eyp4gixyt.streamlit.app/)**
 
 
 
